@@ -1,0 +1,5 @@
+An Algorithm to output the max Ancestry Tree in Approximate Ancestry Graph
+
+Usage: java -classpath ./bin Main ancestryMatrixFile  threshold  vafFile  excludeFile
+
+Example: java -classpath ./bin  Main  data/CLL077_deep_anc.txt  0.8  data/CLL077_deep_vaf.txt  data/CLL077_deep_exclude.txt
